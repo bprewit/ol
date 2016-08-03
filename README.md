@@ -1,9 +1,9 @@
 oltest: Perl REST API for OwnLocal Business Data
 
 Endpoints implemented:
-	/business/{id}						returns JSON data for business id {id}.
-	/businesses							returns list of all businesses in database.
-	/businesses/{page}					returns paginated list of businesses (default length 50).
+	/business/{id}				returns JSON data for business id {id}.
+	/businesses				returns list of all businesses in database.
+	/businesses/{page}			returns paginated list of businesses (default length 50).
 	/businesses/{page}/?{page_len=N}	returns paginated list of businesses, page length N.
 							
 INSTALLATION:	
