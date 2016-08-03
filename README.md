@@ -8,7 +8,7 @@
 	
 	/businesses/{page}			returns paginated list of businesses (default length 50).
 	
-	/businesses/{page}/?{page_len=N}	returns paginated list of businesses, page length N.
+	/businesses/{page}/?{page_length=N}	returns paginated list of businesses, page length N.
 ```
 
 ## INSTALLATION:	
