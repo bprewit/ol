@@ -11,7 +11,9 @@ Endpoints implemented:
 
 INSTALLATION:	
 1) Install mojolicious API framework
+
 	Debian-ish systems: apt-get install libmojolicious-perl
+	
 	Others: see https://github.com/kraih/mojo/wiki/Installation
 
 2) Install perl CSV module(s): cpan Bundle::CSV
