@@ -11,15 +11,15 @@ Endpoints implemented:
 
 INSTALLATION:	
 1) Install mojolicious API framework
-		Debian-ish systems: apt-get install libmojolicious-perl
-		Others: see https://github.com/kraih/mojo/wiki/Installation
+	Debian-ish systems: apt-get install libmojolicious-perl
+	Others: see https://github.com/kraih/mojo/wiki/Installation
 
-2) Install perl CSV module(s):
-		cpan Bundle::CSV
+2) Install perl CSV module(s): cpan Bundle::CSV
 
 3) Create CSV file to be used for database, named 'businesses.csv'
 
 RUNNING:
+
 	a) ./oltest get [-v] <endpoint>
 	
 	b) morbo -l "http://*:8080" (use curl or browser for requests)
