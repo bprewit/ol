@@ -1,6 +1,6 @@
 # oltest: Perl REST API for OwnLocal Business Data
 
-# Endpoints implemented:
+## Endpoints implemented:
 ```
 	/business/{id}				returns JSON data for business id {id}.
 	
@@ -22,7 +22,7 @@
 
 3) Create CSV file to be used for database, named 'businesses.csv'
 
-RUNNING:
+## RUNNING:
 ```
 	a) ./oltest get [-v] <endpoint>
 	
